@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#111111",
     "light": "#555555",
-    "dark": "#111111",
-    "anchors": {
-      "from": "#111111",
-      "to": "#555555"
-    }
+    "dark": "#111111"
   },
   "topbarLinks": [
     {
@@ -26,37 +22,38 @@
     "name": "Get Started",
     "url": "https://useklaws.com/login"
   },
-  "tabs": [],
-  "anchors": [
-    {
-      "name": "Skills",
-      "icon": "puzzle-piece",
-      "url": "https://useklaws.com/skills"
-    },
-    {
-      "name": "Community",
-      "icon": "twitter",
-      "url": "https://x.com/useklaws"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["introduction", "quickstart", "deploy"]
-    },
-    {
-      "group": "Features",
-      "pages": ["features/chat", "features/soul", "features/skills", "features/tasks", "features/channels", "features/memory", "features/activity"]
-    },
-    {
-      "group": "Guides",
-      "pages": ["guides/telegram", "guides/twitter", "guides/scheduled-tasks"]
-    },
-    {
-      "group": "FAQ",
-      "pages": ["faq"]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["introduction", "quickstart", "deploy"]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/chat",
+          "features/soul",
+          "features/skills",
+          "features/tasks",
+          "features/channels",
+          "features/memory",
+          "features/activity"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/telegram",
+          "guides/twitter",
+          "guides/scheduled-tasks"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "pages": ["faq"]
+      }
+    ]
+  },
   "footerSocials": {
     "x": "https://x.com/useklaws",
     "website": "https://useklaws.com"
