@@ -1,0 +1,54 @@
+---
+title: Telegram Setup
+description: "Connect your agent to Telegram step by step"
+---
+
+# Set Up Telegram
+
+Connect your agent to Telegram so you can message it just like any other contact. The whole process takes about 2 minutes.
+
+## What you'll need
+
+- A Telegram account
+- The Telegram app (phone or desktop)
+
+## Step-by-step setup
+
+<Steps>
+  <Step title="Open BotFather on Telegram">
+    Search for **@BotFather** in Telegram, or [click here to open it](https://t.me/BotFather). BotFather is Telegram's official tool for creating bots.
+  </Step>
+  <Step title="Create a new bot">
+    Send `/newbot` to BotFather. It will ask you two things:
+
+    1. **A name** for your bot (this is the display name, e.g. "My Klaws Agent")
+    2. **A username** for your bot (must end in `bot`, e.g. `my_klaws_agent_bot`)
+  </Step>
+  <Step title="Copy the token">
+    BotFather will reply with an **API token** — a long string of numbers and letters. Copy this token. You'll need it in the next step.
+
+    <Warning>
+      Keep this token private. Anyone with your token can control your Telegram bot.
+    </Warning>
+  </Step>
+  <Step title="Add the token to Klaws">
+    Go to your agent's dashboard, find the **Channels** section, and select Telegram. Paste your bot token and save.
+  </Step>
+  <Step title="Start chatting">
+    Go back to Telegram, find your bot by searching for its username, and send it a message. Your agent will respond.
+  </Step>
+</Steps>
+
+## Tips
+
+<AccordionGroup>
+  <Accordion title="Can I change the bot's name or profile picture?">
+    Yes. Go back to BotFather and use the `/setname` or `/setuserpic` commands to customize your bot's appearance.
+  </Accordion>
+  <Accordion title="Can I use my bot in group chats?">
+    Your bot is designed for 1-on-1 conversations. Group chat support may be added in the future.
+  </Accordion>
+  <Accordion title="My bot isn't responding">
+    Double-check that you pasted the correct token in your Klaws dashboard. Make sure there are no extra spaces before or after the token.
+  </Accordion>
+</AccordionGroup>
