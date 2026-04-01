@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48">
-  <!-- Klaws Logo - Full Wordmark -->
-  <rect x="0" y="0" width="48" height="48" rx="6" fill="#111111"/>
-  <path d="M12 10 L12 38 L19 38 L19 27 L32 38 L40 38 L25 24 L39 10 L31 10 L19 22 L19 10Z" fill="#FAFAF8"/>
-  <text x="62" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="400" letter-spacing="2" fill="#111111">klaws</text>
-</svg>
