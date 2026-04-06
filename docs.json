@@ -1,0 +1,86 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Klaws Docs",
+  "colors": {
+    "primary": "#111111",
+    "light": "#333333",
+    "dark": "#000000"
+  },
+  "favicon": "/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": ["index", "quickstart"]
+          },
+          {
+            "group": "Your dashboard",
+            "pages": [
+              "dashboard/chat",
+              "dashboard/soul",
+              "dashboard/skills",
+              "dashboard/tasks",
+              "dashboard/channels",
+              "dashboard/memory",
+              "dashboard/activity",
+              "dashboard/settings"
+            ]
+          },
+          {
+            "group": "How-to guides",
+            "pages": [
+              "guides/telegram",
+              "guides/skills-marketplace",
+              "guides/scheduling-tasks",
+              "guides/personality"
+            ]
+          },
+          {
+            "group": "More",
+            "pages": ["billing", "faq"]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Website",
+          "href": "https://useklaws.com",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Dashboard",
+          "href": "https://useklaws.com/dashboard",
+          "icon": "grid-2"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/icon.png",
+    "dark": "/logo/icon.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hello@useklaws.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get started free",
+      "href": "https://useklaws.com/dashboard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/useklaws"
+    }
+  }
+}
