@@ -12,38 +12,40 @@
     "light": "/logo/icon.png",
     "dark": "/logo/icon.png"
   },
-  "navigation": [
-    {
-      "group": "Get started",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Your dashboard",
-      "pages": [
-        "dashboard/chat",
-        "dashboard/soul",
-        "dashboard/skills",
-        "dashboard/tasks",
-        "dashboard/channels",
-        "dashboard/memory",
-        "dashboard/activity",
-        "dashboard/settings"
-      ]
-    },
-    {
-      "group": "How-to guides",
-      "pages": [
-        "guides/telegram",
-        "guides/skills-marketplace",
-        "guides/scheduling-tasks",
-        "guides/personality"
-      ]
-    },
-    {
-      "group": "More",
-      "pages": ["billing", "faq"]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "group": "Your dashboard",
+        "pages": [
+          "dashboard/chat",
+          "dashboard/soul",
+          "dashboard/skills",
+          "dashboard/tasks",
+          "dashboard/channels",
+          "dashboard/memory",
+          "dashboard/activity",
+          "dashboard/settings"
+        ]
+      },
+      {
+        "group": "How-to guides",
+        "pages": [
+          "guides/telegram",
+          "guides/skills-marketplace",
+          "guides/scheduling-tasks",
+          "guides/personality"
+        ]
+      },
+      {
+        "group": "More",
+        "pages": ["billing", "faq"]
+      }
+    ]
+  },
   "topbarLinks": [
     {
       "name": "Support",
@@ -54,18 +56,6 @@
     "name": "Get started free",
     "url": "https://useklaws.com/dashboard"
   },
-  "anchors": [
-    {
-      "name": "Website",
-      "icon": "globe",
-      "url": "https://useklaws.com"
-    },
-    {
-      "name": "Dashboard",
-      "icon": "grid-2",
-      "url": "https://useklaws.com/dashboard"
-    }
-  ],
   "footerSocials": {
     "x": "https://x.com/useklaws"
   }
